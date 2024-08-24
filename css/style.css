@@ -1,0 +1,27 @@
+table{
+    width: 70%;
+    box-shadow: 0 4px 8px #dfdfdf;
+    margin:50px auto;
+    border: 1px solid;
+    border-radius: 5px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+th, td{
+    text-align: center;
+    padding: 5px;
+    height: 40px;
+    border: 1px solid rgb(202, 197, 197);
+}
+th{
+    background-color: #27ae60;
+}
+tr:nth-child(even){
+    background-color: #f2f3f4;
+}
+tbody tr:nth-child(even) td:nth-child(3){
+    background-color: #f2d7d5;
+    color: #a93226;
+
+}
